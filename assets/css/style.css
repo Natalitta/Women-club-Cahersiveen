@@ -71,3 +71,14 @@ header img {
     border-radius: 15%;*/
     margin-right: 5%;
 }
+
+/*gallery page*/
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 10px;
+}
+#photos img {
+    width: 100%;
+}

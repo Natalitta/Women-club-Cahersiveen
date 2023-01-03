@@ -59,6 +59,7 @@ header img {
     border-radius: 15%;
     text-align: center;
     margin-left: 5%;
+    margin-right: 30px;
     padding: 25px;
     font-family: "Dancing Script", cursive;
     font-size: 2em;
@@ -70,7 +71,27 @@ header img {
     height: 400px;
     border-radius: 15%;*/
     margin-right: 5%;
+    margin-left: 30px;
 }
+/*footer*/
+footer {
+    height: 100px;
+}
+.contacts {
+    text-align: center;
+}
+.contacts li {
+    display: inline;
+    list-style-type: none;
+}
+.contacts i {
+    font-size: 100%;
+    color: rgb(78, 63, 56);
+    margin: 1%;
+    padding: 3%;
+    letter-spacing: ;
+}
+
 
 /*gallery page*/
 #photos {
@@ -82,3 +103,4 @@ header img {
 #photos img {
     width: 100%;
 }
+

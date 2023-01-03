@@ -52,13 +52,22 @@ header img {
 }
 /*section about*/
 #about {
+    float: left;
     width: 50%;
     height: auto;
     border: 1px solid rgb(78, 63, 56);
+    border-radius: 15%;
     text-align: center;
-    margin: 0 auto;
+    margin-left: 5%;
     padding: 25px;
     font-family: "Dancing Script", cursive;
     font-size: 2em;
 }
-
+#about-photo {
+    float: right;
+    /*border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    border-radius: 15%;*/
+    margin-right: 5%;
+}

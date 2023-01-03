@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;700&family=Yeseva+One&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Montserrat, serif; /*"Dancing Script", cursive;*/
+    font-weight: 400;
+    color: rgb(53, 43, 38);
+    background-color: red;
+}
+/*Headings and logo*/
+h1, h2 {
+    font-family: "Yeseva One", serif;
+    color: rgb(54, 39, 30);
+    letter-spacing: 2px;
+}
+#logo {
+    float: left;
+    margin: 25px;
+}
+#logo:hover {
+    font-size: xx-large;
+    color: rgb(78, 63, 56);
+}
+header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 25px;
+    float: left;
+    line-height: 75px;
+}
+#menu {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    font-size: larger;
+    color: rgb(78, 63, 56);
+}
+.active {
+    border-bottom: 2px solid rgb(78, 63, 56);
+}

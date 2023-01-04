@@ -31,8 +31,39 @@
             </ul>
         </nav>
     </header>
-    <section>
-        Join Us!
+    <section class="form-section">
+        <h2>Join our friendly community!</h2>
+        <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
+           <fieldset>     
+           <legend>Personal information</legend>
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" type="text" name="first_name" required> 
+
+                <label for="lname">Last Name</label>
+                <input class="text-input" id="lname" type="text" name="last_name" required> 
+
+                <label for="phone">What's App Number</label>
+                <input class="text-input" id="phone" type="tel" name="phone" required> 
+
+                <label for="email">Email Address</label>
+                <input class="text-input" id="email" type="email" name="email_address" required> 
+            </fieldset> 
+            <fieldset>
+            <legend>What activities are you most interested in?</legend>
+                <label for="art">Arts and Crafts</label>
+                <input type="checkbox" id="art" name="art" value="art">
+
+                <label for="yoga">Yoga and Stretching</label>
+                <input type="checkbox" id="yoga" name="yoga" value="yoga">
+
+                <label for="social">Community gatherings</label>
+                <input type="checkbox" id="social" name="social" value="social">
+
+                <label for="hike">Mounting Hiking</label>
+                <input type="checkbox" id="hike" name="hike" value="hike">
+            </fieldset>
+        </form>
+    
     </section>
     <footer>
         <ul class="contacts">
@@ -45,7 +76,9 @@
             <li>
                 <a href=tel:"066 947 3397"><i class="fa-solid fa-phone"></i></a> 
             </li>
-           
+            <li>
+            <i class="fa-solid fa-house"></i>2 Main Street Cahersiveen, Co. Kerry Кэрсивин, Ирландия Co. Kerry.
+            </li>
         </ul>
     </footer>
 <!--font awesome script-->

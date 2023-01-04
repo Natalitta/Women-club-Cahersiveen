@@ -35,7 +35,7 @@
         <h2>Join our friendly community!</h2>
         <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
            <fieldset>     
-           <legend>Personal information</legend>
+           <legend> Personal information </legend>
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" type="text" name="first_name" required> 
 
@@ -50,18 +50,26 @@
             </fieldset> 
             <fieldset>
             <legend>What activities are you most interested in?</legend>
+            <div>
+                <input class="checkbox-input" type="checkbox" id="art" name="art" value="art">
                 <label for="art">Arts and Crafts</label>
-                <input type="checkbox" id="art" name="art" value="art">
-
+            </div>
+            <div>
+                <input class="checkbox-input" type="checkbox" id="yoga" name="yoga" value="yoga">
                 <label for="yoga">Yoga and Stretching</label>
-                <input type="checkbox" id="yoga" name="yoga" value="yoga">
-
+            </div>
+            <div>
+                <input class="checkbox-input" type="checkbox" id="social" name="social" value="social">
                 <label for="social">Community gatherings</label>
-                <input type="checkbox" id="social" name="social" value="social">
-
+            </div>
+            <div>
+                <input class="checkbox-input" type="checkbox" id="hike" name="hike" value="hike">
                 <label for="hike">Mounting Hiking</label>
-                <input type="checkbox" id="hike" name="hike" value="hike">
+            </div>
             </fieldset>
+            <div>
+                <input class="button "type="submit" value="Join!">
+            </div>
         </form>
     
     </section>

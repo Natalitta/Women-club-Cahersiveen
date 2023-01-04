@@ -64,8 +64,8 @@ header img {
 /*why join*/
  .main {
     border-top: 2px solid rgb(32, 83, 100);
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
  }
 
 /*footer*/
@@ -81,7 +81,7 @@ footer {
 }
 .contacts i {
     font-size: 100%;
-    color: rgb(78, 63, 56);
+    color: rgb(18, 58, 71);
     margin: 1%;
     padding: 3%;
     letter-spacing: 1px;
@@ -105,19 +105,57 @@ footer {
     background-position: center;
     clear: right;
     width: 100%;
-    margin: 0 auto;
-    height: 750px;
-    
+    margin-left: 50px;
+        
 }
 .signup-form {
     color: white;
-    background-color: rgba(0, 120, 139, 0.5);
-    max-width: 40%;
-    margin: 5%;
+    background-color: rgba(0, 120, 139, 0.7);
+    max-width: 35%;
+    margin: 3% 5%;
+    padding: 20px;
+    line-height: 2em;
+    height: 650px;
+    border-radius: 5%;
 }
 
+legend {
+    font-size: 1.3em;
+    padding-top: 10px;
+    text-transform: uppercase;
+    
+}
 .text-input {
     border: 2px solid rgb(0, 120, 139);
-    width: 50%;
+    width: 90%;
     padding: 10px;
+    font-size: 1em;
+}
+.checkbox-input {
+    border: 2px solid rgb(0, 120, 139);
+    padding: 10%;
+    margin: 15px;
+    font-size: 1em;
+        
+}
+.button {
+    background-color: white;
+    display: block;
+    color: rgb(0, 120, 139);
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10px;
+
+}
+.button:hover {
+    font-size: 120%;
+    font-weight: bold;
+    border: 3px solid rgb(0, 120, 139);
+    
+
 }

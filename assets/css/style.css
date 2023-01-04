@@ -7,19 +7,18 @@
 body {
     font-family: Montserrat, serif; 
     font-weight: 400;
-    color: rgb(53, 43, 38);
+    color: rgb(18, 58, 71);
 }
 /*Headings and logo*/
 h1, h2 {
     font-family: "Yeseva One", serif;
     color: rgb(0, 120, 139);
-    letter-spacing: 2px;
+    letter-spacing: 2px;  
 }
-#logo {
-    float: left;
-    margin: 25px;
-}
-#logo:hover {
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
     
 }
 header img {
@@ -37,6 +36,7 @@ header img {
     float: right;
     list-style-type: none;
     margin-right: 50px;
+    font-size: 1.5em;
 }
 #menu a {
     text-decoration: none;
@@ -44,23 +44,30 @@ header img {
 }
 #menu a:hover {
     font-size: larger;
-    color: rgb(1, 60, 70);
+    color: rgb(61, 176, 143);
 }
 .active {
-    border-bottom: 2px solid rgb(1, 60, 70);
+    border-bottom: 1px solid rgb(32, 83, 100);
 }
-
+    
 /*section about*/
 #about {
-    float: left;
+    overflow: hidden;
     width: 75%;
     height: auto;
     text-align: center;
     margin: 0 auto;
-    padding: 25px;
     font-family: "Dancing Script", cursive;
+    line-height: 1em;
     font-size: 1.5em;
+    
 }
+/*why join*/
+ .main {
+    border-top: 2px solid rgb(32, 83, 100);
+    padding: 30px;
+    margin: 30px;
+ }
 
 /*footer*/
 footer {

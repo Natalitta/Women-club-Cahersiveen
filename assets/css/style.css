@@ -124,6 +124,9 @@ header img {
     margin: 0 auto;
 
 }
+.main p {
+    margin: 20px;
+}
 /*footer*/
 footer {
     height: 100px;
@@ -217,7 +220,7 @@ legend {
 }
 /* For medium screen sizes from 950px wide and down*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 
     header img {
         width: 30%;
@@ -237,11 +240,30 @@ legend {
         letter-spacing: 0;
         
     }
-    #menu li {
-        word-spacing: 10 px;
-             
+    /*form*/
+    .form-section {
        
-        
+        width: 80%;
+        margin-left: 10px;
+            
     }
-    
+    .signup-form {
+        
+        max-width: 80%;
+        margin: o auto;
+           }
+}
+@media screen and (max-width: 480px) {
+    /*form*/
+    .form-section {
+       
+        width: 100%;
+        margin-left: 10px;
+            
+    }
+    .signup-form {
+        
+        max-width: 100%;
+        margin: o auto;
+           }
 }

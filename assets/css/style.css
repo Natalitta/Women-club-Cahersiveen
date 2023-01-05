@@ -61,11 +61,31 @@ header img {
     font-size: 1.5em;
     
 }
-/*why join*/
+/*reasons*/
  .main {
     border-top: 2px solid rgb(32, 83, 100);
     padding: 20px;
     margin: 20px;
+    height: auto;
+ }
+ #left-reason {
+    float: left;
+    width: 33%;
+    padding-top: 20px;
+
+ }
+ #center-reason {
+    margin: 0 auto;
+    width: 33%;
+    padding-top: 20px;
+
+ }
+
+ #right-reason {
+    float: right;
+    width: 25%;
+    padding-top: 20px;
+
  }
 
 /*footer*/
@@ -158,4 +178,34 @@ legend {
     border: 3px solid rgb(0, 120, 139);
     
 
+}
+/* For medium screen sizes from 950px wide and down*/
+
+@media screen and (max-width: 1000px) {
+
+    header img {
+        width: 30%;
+        height: 30%;
+        margin-top: 15px;
+        margin-left: 10px;
+        float: left;
+        line-height: 200px;
+    }
+    #menu {
+        
+        float: none;
+        margin-right: 20px;
+        margin-top: 5%;
+        line-height: 25px;
+        font-size: 50%;
+        letter-spacing: 0;
+        
+    }
+    #menu li {
+        word-spacing: 10 px;
+             
+       
+        
+    }
+    
 }

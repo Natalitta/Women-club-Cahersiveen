@@ -96,9 +96,9 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: start;
+    align-items: flex-start;
     overflow: hidden;
-    flex-wrap: wrap;
+    
     
 }
  .main {
@@ -115,6 +115,7 @@ span {
  
  #left-reason {
     max-width: 30%;
+    justify-content: space-around;
 
  }
  #center-reason {
@@ -124,13 +125,18 @@ span {
 
  #right-reason {
     max-width: 30%;
+    justify-content: space-around;
 
  }
 
 .main p {
-    margin: 20px;
+    margin: 10px;
     text-align: justify;
 } 
+.flex-img {
+    display: flex;
+    justify-content: space-around;
+}
 
 .main img {
     width: 300px;
@@ -140,17 +146,9 @@ span {
     border-color: rgba(32, 83, 100, 0.5);
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
-    
+     
 }
-#flex-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 
-
-}
 /*footer*/
 footer {
     height: 100px;

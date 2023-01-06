@@ -88,20 +88,11 @@ header img {
     
     
 }
-span {
+.bold {
     font-weight: bold;
 }
 /*reasons*/
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    overflow: hidden;
-    
-    
-}
- .main {
+.main {
     border-bottom: 2px solid rgb(32, 83, 100);
     padding: 30px;
     margin: 0 auto;
@@ -112,7 +103,15 @@ span {
     margin: 10px 0;
     text-align: center;
  }
- 
+ .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow: hidden;
+        
+}
+  
  #left-reason {
     max-width: 30%;
     justify-content: space-around;
@@ -148,7 +147,35 @@ span {
     border-radius: 50%;
      
 }
+@media screen and (max-width: 600px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        overflow: hidden;
+               
+    }
+    #left-reason {
+        max-width: 95%;
+        justify-content: space-around;
+         }
+     #center-reason {
+        max-width: 95%;
+         }
+    
+     #right-reason {
+        max-width: 95%;
+        justify-content: space-around;
+         }
+    .flex-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        }
 
+
+}
 /*footer*/
 footer {
     height: 100px;

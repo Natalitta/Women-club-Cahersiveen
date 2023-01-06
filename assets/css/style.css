@@ -8,6 +8,7 @@ body {
     font-family: Montserrat, serif; 
     font-weight: 400;
     color: rgb(18, 58, 71);
+    margin: 0 3%;
 }
 /*Headings and logo*/
 h1, h2 {
@@ -52,36 +53,51 @@ header img {
 #banner-container {
     height: 400px;
     width: 100%;
-    overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
 }
 #banner   {
     background: url('../images/banner-photo.jpg') no-repeat center center;
     width: 100%;
-    height: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }  
 /*section about*/
 #about {
     overflow: hidden;
     width: 40%;
     height: auto;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
-    margin: 5px auto;
     font-family: "Dancing Script", cursive;
-    line-height: 1em;
+    line-height: 1.5em;
     font-size: 1.5em;
+    letter-spacing: 3px;
     background-color: rgba(246, 248, 248, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
     
 }
+span {
+    font-weight: bold;
+}
 /*reasons*/
  .main {
-    border-bottom: 2px solid rgb(32, 83, 100);
+    /*border-bottom: 2px solid rgb(32, 83, 100);
     padding: 20px;
     margin: 0 auto;
     height: auto;
-    max-width: 90%;
+    max-width: 90%;*/
  }
  h3 {
     color: rgb(32, 83, 100);

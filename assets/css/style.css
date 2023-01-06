@@ -157,21 +157,25 @@ header img {
                
     }
     #left-reason {
-        max-width: 95%;
-        justify-content: space-around;
+        max-width: 100%;
+        
          }
      #center-reason {
-        max-width: 95%;
+        max-width: 100%;
+        
          }
     
      #right-reason {
-        max-width: 95%;
-        justify-content: space-around;
+        max-width: 100%;
+        
          }
     .flex-img {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        }
+        .main img {
+            
         }
 
 

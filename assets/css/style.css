@@ -132,6 +132,9 @@ header img {
     margin: 10px;
     text-align: justify;
 } 
+.flex i {
+    color: rgb(0, 120, 139);
+}
 .flex-img {
     display: flex;
     justify-content: space-around;
@@ -173,11 +176,7 @@ header img {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        }
-        .main img {
-            
-        }
-
+        }  
 
 }
 /*footer*/

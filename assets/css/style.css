@@ -153,11 +153,6 @@ header img {
 .flex i {
     color: rgb(0, 120, 139);
 }
-.flex-img {
-    display: flex;
-    justify-content: space-around;
-}
-
 .main img {
     width: 300px;
     height: 300px;
@@ -166,6 +161,8 @@ header img {
     border-color: rgba(32, 83, 100, 0.5);
     border-width: 1px;
     border-radius: 50%;
+    object-position: center;
+    margin: 0 20px;
      
 }
 @media screen and (max-width: 600px) {

@@ -5,6 +5,6 @@ Mock-up
 Existing Features
 
     Navigation Bar
-        Featured on all four pages, the full responsive navigation bar includes links to the Logo, About Us (home page), Our activities, Our photos and Sign Up pages, which are the same on all pages to make navigation easier.
+        Featured on all three pages, the full responsive navigation bar includes links to the Logo, About Us (home page), Our activities section, Our photos and Sign Up pages, which are the same on all pages to make navigation easier.
         
 

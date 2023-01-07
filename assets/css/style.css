@@ -187,7 +187,7 @@ header img {
 }
 /*activities*/
 #activities {
-    background-image: url('../images/activities.jpg');
+    background-image: url('../images/activities.jpg'); /* photo by Becca Tapert */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -199,11 +199,12 @@ header img {
 #activities div {
     background-color: rgba(246, 248, 248, 0.7);
     width: 15%;
-    height: 130px;
+    height: 140px;
     text-align: center;
     border: 3px solid white;
     box-sizing: border-box;
     align-items: center;
+    border-radius: 15%;
 }
 
 /*footer*/

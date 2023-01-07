@@ -31,23 +31,44 @@ header img {
 }
 #menu {
     line-height: 150px;
+    display: flex;
+    flex-direction: row-reverse;    
 }
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 50px;
     font-size: 1.5em;
+    
 }
 #menu a {
     text-decoration: none;
     color: rgb(32, 83, 100);
 }
 #menu a:hover {
-    font-size: larger;
+    font-weight: 700;
     color: rgb(61, 176, 143);
 }
 .active {
     border-bottom: 1px solid rgb(32, 83, 100);
+}
+@media screen and (max-width: 600px) {
+    header img {
+        width: 50%;
+        height: 50%;
+        margin-top: 10px;
+        margin-left: 10px;       
+    }
+    #menu {
+        flex-direction: column-reverse; 
+        align-items: flex-end; 
+        justify-content: flex-start; 
+        line-height: 1.5em;
+    }
+    #menu li {
+        list-style-type: none;
+        margin-right: 0px;
+        font-size: 85%;
+    }
 }
 /*banner*/
 #banner-container {
@@ -84,9 +105,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
-    
+    flex-direction: column;    
 }
 .bold {
     font-weight: bold;
@@ -109,7 +128,6 @@ header img {
     justify-content: space-around;
     align-items: flex-start;
     overflow: hidden;
-        
 }
   
  #left-reason {
@@ -163,12 +181,12 @@ header img {
         max-width: 100%;
         
          }
-     #center-reason {
+    #center-reason {
         max-width: 100%;
         
          }
     
-     #right-reason {
+    #right-reason {
         max-width: 100%;
         
          }
@@ -273,28 +291,8 @@ legend {
 /* For medium screen sizes from 950px wide and down*/
 
 @media screen and (max-width: 950px) {
-
-    header img {
-        width: 30%;
-        height: 30%;
-        margin-top: 15px;
-        margin-left: 10px;
-        float: left;
-        line-height: 200px;
-    }
-    #menu {
-        
-        float: none;
-        margin-right: 20px;
-        margin-top: 5%;
-        line-height: 25px;
-        font-size: 50%;
-        letter-spacing: 0;
-        
-    }
     /*form*/
     .form-section {
-       
         width: 80%;
         margin-left: 10px;
             

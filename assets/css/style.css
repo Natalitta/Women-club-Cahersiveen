@@ -167,6 +167,7 @@ header img {
     align-items: center;
     justify-content: center;
     border-radius: 15%;
+    padding: 1%;
 }
 .button-main {
     background-color: white;
@@ -336,6 +337,18 @@ legend {
     .button-main {
         margin: 50px 20%;
     }
+    #activities {
+        width: 100%;
+        height: auto;
+    }
+    #activities div {
+        width: 60%;
+        height: auto;
+    }
+    .map h3 {
+        font-size: 1.3em;
+
+    }
     /*form*/
     .form-section {
        
@@ -390,6 +403,17 @@ legend {
         }  
     .button-main {
         margin: 50px 20%;
+    }
+    #activities {
+        width: 100%;
+        height: auto;
+    }
+    #activities div {
+        width: 40%;
+        height: auto;
+    }
+    #activities h3 {
+        font-size: 1.3em;
     }
     .map h3 {
         font-size: 1.3em;

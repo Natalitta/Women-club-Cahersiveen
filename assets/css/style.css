@@ -191,7 +191,7 @@ header img {
     font-weight: bold;
 }
 .map {
-    margin: 0 15px 0 15px;
+    margin: 0 3%;
     
 }
 /*footer*/
@@ -347,7 +347,11 @@ legend {
     }
     .map h3 {
         font-size: 1.3em;
+        margin: 2%;
 
+    }
+    .map {
+        width: 100%;
     }
     /*form*/
     .form-section {
@@ -415,9 +419,12 @@ legend {
     #activities h3 {
         font-size: 1.3em;
     }
+    .map {
+        width: 100%;
+    }
     .map h3 {
         font-size: 1.3em;
-
+        margin: 2%;
     }
     /*form*/
     .form-section {

@@ -52,25 +52,7 @@ header img {
 .active {
     border-bottom: 1px solid rgb(32, 83, 100);
 }
-@media screen and (max-width: 600px) {
-    header img {
-        width: 50%;
-        height: 50%;
-        margin-top: 10px;
-        margin-left: 10px;       
-    }
-    #menu {
-        flex-direction: column-reverse; 
-        align-items: flex-end; 
-        justify-content: flex-start; 
-        line-height: 1.5em;
-    }
-    #menu li {
-        list-style-type: none;
-        margin-right: 0px;
-        font-size: 85%;
-    }
-}
+
 /*banner*/
 #banner-container {
     height: 400px;
@@ -120,7 +102,6 @@ header img {
  }
  h3 {
     color: rgb(32, 83, 100);
-    margin: 20px 0;
     text-align: center;
     font-size: 1.4em;
  }
@@ -162,31 +143,9 @@ header img {
     border-color: rgba(32, 83, 100, 0.5);
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 20px;     
+    margin: 0 5%;     
 }
-@media screen and (max-width: 600px) {
-    .flex {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-        overflow: hidden;          
-    }
-    #left-reason {
-        max-width: 100%;
-        }
-    #center-reason {
-        max-width: 100%;
-        }
-    #right-reason {
-        max-width: 100%;
-        }
-    .flex-img {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        }  
-}
+
 /*activities*/
 #activities {
     background-image: url('../images/activities.jpg'); /* photo by Becca Tapert */
@@ -206,6 +165,7 @@ header img {
     border: 3px solid white;
     box-sizing: border-box;
     align-items: center;
+    justify-content: center;
     border-radius: 15%;
 }
 .button-main {
@@ -218,7 +178,7 @@ header img {
     text-align: center;
     font-size: 100%;
     font-weight: bold;
-    margin: 50px 470px;
+    margin: 50px 40%;
     border: 3px solid rgb(0, 120, 139);
 }
 .button-link {
@@ -320,26 +280,62 @@ legend {
 .button:hover {
     font-size: 120%;
     font-weight: bold;
-    border: 3px solid rgb(0, 120, 139);
-    
+    border: 3px solid rgb(0, 120, 139); 
 
 }
-/* For medium screen sizes from 950px wide and down*/
-
-@media screen and (max-width: 950px) {
-    /*form*/
-    .form-section {
-        width: 80%;
-        margin-left: 10px;
-            
-    }
-    .signup-form {
-        
-        max-width: 80%;
-        margin: o auto;
-           }
-}
+/*Media queries*/
 @media screen and (max-width: 480px) {
+    header img {
+        width: 50%;
+        height: 50%;
+        margin-top: 10px;
+        margin-left: 10px;       
+    }
+    #menu {
+        flex-direction: column-reverse; 
+        align-items: flex-end; 
+        justify-content: flex-start; 
+        line-height: 1.5em;
+        margin-left: 10px;
+    }
+    #menu li {
+        list-style-type: none;
+        margin: 20px;
+        font-size: 100%;
+    }
+    #banner   {
+        background: url('../images/banner-photo.jpg') no-repeat center center;
+        width: 100%;         
+    }  
+    /*section about*/
+    #about {
+        width: 75%;            
+    }    
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        overflow: hidden;          
+        }
+    #left-reason {
+        max-width: 100%;
+        }
+    #center-reason {
+        max-width: 100%;
+        }
+    #right-reason {
+        max-width: 100%;
+        }
+    .flex-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 10%;
+        }
+    .button-main {
+        margin: 50px 20%;
+    }
     /*form*/
     .form-section {
        
@@ -353,3 +349,63 @@ legend {
         margin: o auto;
            }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header img {
+        width: 50%;
+        height: 50%;
+        margin-top: 10px;
+        margin-left: 10px;       
+    }
+    #menu {
+        flex-direction: row-reverse; 
+    }
+    #menu li {
+        list-style-type: none;
+        margin: 10px;
+        font-size: 100%;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        overflow: hidden; 
+        flex-wrap: wrap;         
+        }
+    #left-reason {
+        max-width: 100%;
+        }
+    #center-reason {
+        max-width: 100%;
+        }
+    #right-reason {
+        max-width: 100%;
+        }
+    .flex-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }  
+    .button-main {
+        margin: 50px 20%;
+    }
+    .map h3 {
+        font-size: 1.3em;
+
+    }
+    /*form*/
+    .form-section {
+        width: 80%;
+        margin-left: 10px;
+            
+    }
+    .signup-form {
+        
+        max-width: 80%;
+        margin: o auto;
+           }
+}
+
+    

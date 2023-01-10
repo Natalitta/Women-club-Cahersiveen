@@ -33,11 +33,12 @@ header img {
 #menu {
     line-height: 150px;
     display: flex;
-    flex-direction: row-reverse;    
+    flex-direction: row-reverse;
+    justify-content: flex-start;    
 }
 #menu li {
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 20px;
     font-size: 1.5em;
     
 }
@@ -95,7 +96,7 @@ header img {
 }
 /*reasons*/
 .main {
-    border-bottom: 2px solid rgb(32, 83, 100);
+    border-top: 2px solid rgb(32, 83, 100);
     padding: 30px 30px ;
     margin: 0 auto;
     height: auto;
@@ -116,7 +117,6 @@ header img {
  #left-reason {
     max-width: 30%;
     justify-content: space-around;
-
  }
  #center-reason {
     max-width: 30%;
@@ -136,14 +136,17 @@ header img {
     color: rgb(0, 120, 139);
 }
 .main img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 12px;
     border-style: solid;
     border-color: rgba(32, 83, 100, 0.5);
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 5%;     
+    margin: 0 auto;  
+    display: flex; 
+    flex-direction: row;
+    align-items: center;  
 }
 
 /*activities*/
@@ -191,9 +194,10 @@ header img {
     font-weight: bold;
 }
 .map {
-    margin: 0 3%;
-    
+    margin: 3% 3%;
+    text-align: center;
 }
+
 /*footer*/
 footer {
     height: 100px;
@@ -207,7 +211,7 @@ footer {
     font-weight: 700;
 }
 .contacts i {
-    font-size: 200%;
+    font-size: 150%;
     color: rgb(18, 58, 71);
     margin: 0;
     padding: 4%;
@@ -228,23 +232,22 @@ footer h3 {
     width: 100%;
 }
 /*signup page*/
+#banner-text {
+    width: 65%;
+}
 .form-section {
-    background: url(../images/banner.jpg);
-    background-size: cover;
-    background-position: center;
-    clear: right;
     width: 100%;
     margin-left: 50px;
         
 }
 .signup-form {
     color: white;
-    background-color: rgba(0, 120, 139, 0.7);
+    background-color: rgba(0, 120, 139, 0.8);
     max-width: 35%;
     margin: 3% 5%;
     padding: 20px;
     line-height: 2em;
-    height: 650px;
+    height: 800px;
     border-radius: 5%;
 }
 
@@ -307,22 +310,17 @@ legend {
 }
 /*Media queries*/
 @media screen and (max-width: 480px) {
-    header img {
-        width: 50%;
-        height: 50%;
-        margin-top: 10px;
-        margin-left: 10px;       
-    }
+    
     #menu {
         flex-direction: column-reverse; 
         align-items: flex-end; 
         justify-content: flex-start; 
-        line-height: 1.5em;
+        line-height: 50px;
         margin-left: 10px;
     }
     #menu li {
         list-style-type: none;
-        margin: 20px;
+        margin: 0;
         font-size: 100%;
     }
     #banner   {
@@ -359,7 +357,6 @@ legend {
         margin: 50px 20%;
     }
     #activities {
-        width: 100%;
         height: auto;
     }
     #activities div {
@@ -376,49 +373,56 @@ legend {
     }
     /*form*/
     .form-section {
-       
         width: 100%;
         margin-left: 10px;
             
     }
     .signup-form {
-        
         max-width: 100%;
         margin: o auto;
-           }
+    }
+    legend {
+        font-size: 1em;
+    }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     header img {
         width: 50%;
         height: 50%;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: 10px;       
     }
     #menu {
-        flex-direction: row-reverse; 
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin-top: 10px;
     }
     #menu li {
-        list-style-type: none;
-        margin: 10px;
-        font-size: 100%;
+        line-height: 1em;
+        margin: 0;
     }
-    .flex {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
-        overflow: hidden; 
-        flex-wrap: wrap;         
-        }
     #left-reason {
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
         }
     #center-reason {
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
         }
     #right-reason {
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
         }
     .flex-img {
         display: flex;
@@ -427,16 +431,20 @@ legend {
         align-items: center;
         }  
     .button-main {
-        margin: 50px 20%;
+        margin: 10% 20%;
+        text-align: center;
     }
     #activities {
-        width: 100%;
         height: auto;
     }
     
     #activities h3 {
         font-size: 1.3em;
     }
+    .flex {
+        flex-direction: column;  
+        flex-wrap: wrap;      
+        }
     .map {
         width: 100%;
     }
@@ -462,7 +470,77 @@ legend {
     column-count: 1;
     }
     #activities div {
-        width: 70%;
+        width: 60%;
         height: auto;
     }
+    .form-section {
+        background: none;
+        margin: 0 auto;
+        height: auto;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 900px){ 
+    header img {
+        width: 25%;
+        height: 25%;
+        margin-top: 20px;
+        margin-left: 10px;       
+    }
+    #activities div {
+        width: 40%;
+        height: auto;
+    }
+    .flex {
+        flex-direction: column-reverse;        
+        }
+    .button-main {
+        margin: 5% 35%;
+        text-align: center;
+        }
+    .form-section {
+        max-width: 100%;
+        margin-left: 50px;
+                
+        }
+    .signup-form {
+        max-width: 60%;
+        margin: o auto;
+        }
+}
+@media screen and (max-width: 900px) {
+      
+    #menu {
+        line-height: 80px;
+    }
+    #menu li {
+        margin: 10px;
+        font-size: 95%;
+    }
+    #left-reason {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        }
+    #center-reason {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        }
+    #right-reason {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        }
+    .flex-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }  
 }

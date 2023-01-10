@@ -34,47 +34,54 @@
     </header>
     <section class="form-section">
         <h2>Join our friendly community!</h2>
-        <form class="signup-form" method="get" action="thank-you.html">
-           <fieldset>     
-           <legend> Personal information </legend>
-                <label for="fname">First Name</label>
-                <input class="text-input" id="fname" type="text" name="first_name" required> 
-
-                <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" type="text" name="last_name" required> 
-
-                <label for="phone">What's App Number</label>
-                <input class="text-input" id="phone" type="tel" name="phone" required> 
-
-                <label for="email">Email Address</label>
-                <input class="text-input" id="email" type="email" name="email_address" required> 
-            </fieldset> 
-            <fieldset>
-            <legend>What activities are you most interested in?</legend>
+        <div class="flex">
             <div>
-                <input class="checkbox-input" type="checkbox" id="art" name="art" value="art">
-                <label for="art">Arts and Crafts</label>
-            </div>
-            <div>
+                 <form class="signup-form" method="get" action="thank-you.html">
+                <fieldset>     
+                <legend> Personal information </legend>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" type="text" name="first_name" required> 
+
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" type="text" name="last_name" required> 
+
+                    <label for="phone">What's App Number</label>
+                    <input class="text-input" id="phone" type="tel" name="phone" required> 
+
+                    <label for="email">Email Address</label>
+                    <input class="text-input" id="email" type="email" name="email_address" required> 
+                </fieldset> 
+                <fieldset>
+                <legend>What activities are you most interested in?</legend>
+                <div>
+                    <input class="checkbox-input" type="checkbox" id="art" name="art" value="art">
+                    <label for="art">Arts and Crafts</label>
+                </div>
+                <div>
                 <input class="checkbox-input" type="checkbox" id="yoga" name="yoga" value="yoga">
                 <label for="yoga">Yoga and Stretching</label>
-            </div>
-            <div>
+                </div>
+                <div>
                 <input class="checkbox-input" type="checkbox" id="social" name="social" value="social">
                 <label for="social">Community gatherings</label>
-            </div>
-            <div>
+                </div>
+                <div>
                 <input class="checkbox-input" type="checkbox" id="hike" name="hike" value="hike">
                 <label for="hike">Mounting Hiking</label>
-            </div>
-            </fieldset>
-            <div>
+                </div>
+                </fieldset>
+                <div>
                 <input class="button" type="submit" value="Join!">
+                </div>
             </div>
+            <div #banner-text>
+                <img src="assets/images/banner-text.jpg" alt="Wonen's Collective banner">
+            </div>
+        </div>
         </form>
     
     </section>
-    <footer>
+    <footer class="main">
         <div>
             <ul class="contacts">
                 <li>Contacts:</li>

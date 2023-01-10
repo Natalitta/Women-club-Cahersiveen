@@ -204,15 +204,18 @@ footer {
 .contacts li {
     display: inline;
     list-style-type: none;
+    font-weight: 700;
 }
 .contacts i {
-    font-size: 100%;
+    font-size: 200%;
     color: rgb(18, 58, 71);
-    margin: 1%;
-    padding: 3%;
+    margin: 0;
+    padding: 4%;
     letter-spacing: 1px;
 }
-
+footer h3 {
+    padding-top: 3%;
+}
 
 /*gallery page*/
 #photos {

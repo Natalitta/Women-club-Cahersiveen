@@ -287,6 +287,24 @@ legend {
     border: 3px solid rgb(0, 120, 139); 
 
 }
+#thanks {
+    max-width: 50%;
+    margin: 5% auto;
+    text-align: center;
+}
+#thanks p {
+    line-height: 2em;
+    font-size: 1.3em;
+}
+@media screen and (max-width: 700px) {
+    #thanks {
+        max-width: 70%;
+    }
+    #thanks p {
+        line-height: 2em;
+        font-size: 1em;
+    }
+}
 /*Media queries*/
 @media screen and (max-width: 480px) {
     header img {

@@ -353,6 +353,10 @@ legend {
     .map {
         width: 100%;
     }
+    /*gallery page*/
+    #photos {
+    column-count: 1;
+    }
     /*form*/
     .form-section {
        

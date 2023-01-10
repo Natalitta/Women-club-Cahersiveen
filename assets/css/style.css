@@ -288,8 +288,8 @@ legend {
 
 }
 .thanks {
-    max-width: 50%;
-    margin: 5% auto;
+    max-width: 60%;
+    margin: 10% auto;
     text-align: center;
 }
 .thanks p {
@@ -374,10 +374,6 @@ legend {
     .map {
         width: 100%;
     }
-    /*gallery page*/
-    #photos {
-    column-count: 1;
-    }
     /*form*/
     .form-section {
        
@@ -437,10 +433,7 @@ legend {
         width: 100%;
         height: auto;
     }
-    #activities div {
-        width: 40%;
-        height: auto;
-    }
+    
     #activities h3 {
         font-size: 1.3em;
     }
@@ -463,5 +456,13 @@ legend {
         margin: o auto;
            }
 }
-
-    
+@media screen and (max-width: 600px) {
+/*gallery page*/
+    #photos {
+    column-count: 1;
+    }
+    #activities div {
+        width: 70%;
+        height: auto;
+    }
+}

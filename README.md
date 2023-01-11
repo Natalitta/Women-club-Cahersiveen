@@ -109,7 +109,7 @@ All the links navigated to the correct pages on all pages.
 * Testing was performed on the Font Awesome icons in the footer to ensure that each one opened in a new tab.
 * Facebook icon opened in a new tab when clicked as expected.
 * E-mail icon opened a default e-mail application ready to send an email to the target address.
-* Telephone icon opened a pop-up window asking which permition to call.
+* Telephone icon opened a pop-up window asking for permition to call.
 
 ### Sign-up form
 The form on the sign-up page was tested to ensure it functioned as expected. The test covered situations when correct data was input and when incorrect data was input.
@@ -122,11 +122,45 @@ The form wasn't submit and an Error was displayed to tell the user that the fiel
 The form wasn't submit and an Error was displayed to tell the user that the field is required.
 
 ### Validator Testing
-* HTML: No errors were returned when passing through the official W3C validator.
+* HTML: No errors were returned when passing through the official W3C HTML validator.
 <img src="assets/images/val-1.png" alt="Women's Club website validation">
 <img src="assets/images/val-2.png" alt="Women's Club website validation">
 <img src="assets/images/val-3.png" alt="Women's Club website validation">
 <img src="assets/images/val-4.png" alt="Women's Club website validation">
+
+* CSS: No errors were found when passing through the official W3C CSS validator.
+
+<img src="assets/images/val-5.png" alt="Women's Club website validation">
+
+### Unfixed Bugs
+No bugs were detected.
+
+## Deployment
+The site was created using Gitpod and pushed to GitHub to a remote repository.
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+* In the GitHub repository, navigate to the Settings tab.
+* From the menu on the left, select Pages.
+* From the source section drop-down menu, select the Branch: main.
+* Click 'Save'
+* A live link displays on the top of the section when published successfully.
+
+The live link can be found here - https://natalitta.github.io/Women-club-Cahersiveen/
+
+## Credits
+
+### Content:
+* The text for "About us" section was taken from Facebook page of Women's Collective. Permition was granted.
+* All icons were taken from Font Awesome.
+
+### Media
+* The photos for the gallery page and the website logo were taken from Facebook page of Women's Collective. Permition was granted.
+* Locations maps were iframed from Google maps.
+* Photos for the home page were taken from Unsplash created by rocknwool, Andre Tan, Ella Jardin.
+
+
+
+
+
 
 
 

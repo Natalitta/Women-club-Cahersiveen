@@ -77,7 +77,11 @@ Women's Club Cahersiveen is a website that provides information about the local 
 ### The Sign Up Page
 
 * This page allows the user to get signed up to be the member of the community and start their sociolising and attending meet-ups, classes and any other events they are interested in.
-* The user can specify the activities they would like to take part in. The user is asked to submit their full name, email address and phone number.
+* The user can specify the activities they would like to take part in. 
+* The user is asked to submit their full name, email address and phone number.
+
+<img src="assets/images/signup.png" alt="Women's Club website form">
+
 * On successful submission of the sign-up form, the user will be navigated to thank-you.html displaying a welcoming message.
 
 <img src="assets/images/thank-you.png" alt="Women's Club website thank-you page">
@@ -119,6 +123,11 @@ The form wasn't submit and an Error was displayed to tell the user that the fiel
 
 ### Validator Testing
 * HTML: No errors were returned when passing through the official W3C validator.
+<img src="assets/images/val-1.png" alt="Women's Club website validation">
+<img src="assets/images/val-2.png" alt="Women's Club website validation">
+
+
+
 
 
 

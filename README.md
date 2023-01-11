@@ -125,6 +125,8 @@ The form wasn't submit and an Error was displayed to tell the user that the fiel
 * HTML: No errors were returned when passing through the official W3C validator.
 <img src="assets/images/val-1.png" alt="Women's Club website validation">
 <img src="assets/images/val-2.png" alt="Women's Club website validation">
+<img src="assets/images/val-3.png" alt="Women's Club website validation">
+<img src="assets/images/val-4.png" alt="Women's Club website validation">
 
 
 

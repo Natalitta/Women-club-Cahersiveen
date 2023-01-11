@@ -234,7 +234,7 @@ footer h3 {
 /*signup page*/
 .form-section {
     width: 100%;
-    margin-top: 50px;        
+    margin-top: 60px;        
 }
 .signup-form {
     color: white;
@@ -367,19 +367,6 @@ legend {
     .map {
         width: 100%;
     }
-    /*form*/
-    .form-section {
-        width: 100%;
-        margin-left: 10px;
-            
-    }
-    .signup-form {
-        max-width: 100%;
-        margin: o auto;
-    }
-    legend {
-        font-size: 1em;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -448,30 +435,25 @@ legend {
         font-size: 1.3em;
         margin: 2%;
     }
-    /*form*/
-    .form-section {
-        width: 80%;
-        margin-left: 10px;
-            
+     /*form*/
+     .form-section {
+        width: 100%;
+        margin: 0 auto;    
     }
     .signup-form {
+        max-width: 100%;
+        margin: 0 auto; 
         
-        max-width: 80%;
-        margin: o auto;
-           }
-}
-@media screen and (max-width: 600px) {
+    }
+    legend {
+        font-size: 1em;
+    }
 /*gallery page*/
     #photos {
     column-count: 1;
     }
     #activities div {
         width: 60%;
-        height: auto;
-    }
-    .form-section {
-        background: none;
-        margin: 0 auto;
         height: auto;
     }
 }
@@ -493,15 +475,7 @@ legend {
         margin: 5% 35%;
         text-align: center;
         }
-    .form-section {
-        max-width: 100%;
-        margin-left: 50px;
-                
-        }
-    .signup-form {
-        max-width: 60%;
-        margin: o auto;
-        }
+    
 }
 @media screen and (max-width: 900px) {
       
@@ -538,5 +512,18 @@ legend {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        }  
+        } 
+    .form-section h2 {
+        font-size: 1.5em;
+        margin-top: 50px;
+    } 
+    /*form*/
+    .form-section {
+        width: 80%;
+        margin: 0 auto;            
+    }
+    .signup-form {
+        max-width: 100%;
+        margin: 0 auto;
+        }
 }

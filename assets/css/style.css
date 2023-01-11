@@ -232,19 +232,15 @@ footer h3 {
     width: 100%;
 }
 /*signup page*/
-#banner-text {
-    width: 65%;
-}
 .form-section {
     width: 100%;
-    margin-left: 50px;
-        
+    margin-top: 50px;        
 }
 .signup-form {
     color: white;
     background-color: rgba(0, 120, 139, 0.8);
     max-width: 35%;
-    margin: 3% 5%;
+    margin: 3% auto;
     padding: 20px;
     line-height: 2em;
     height: 800px;
@@ -281,7 +277,7 @@ legend {
     font-weight: bold;
     float: right;
     margin-right: 10%;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 .button:hover {

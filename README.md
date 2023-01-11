@@ -86,6 +86,41 @@ Women's Club Cahersiveen is a website that provides information about the local 
 
 * The sign-up form will be updated with javascript to send a welcoming email to the user with detailed information about the activities they specified in the form.
 
+## Testing
+### Navigation Links
+Testing was done to ensure that all navigation links navigate to the correct pages as intended. This was done by clicking on the navigation links on each page. 
+* Logo image - index.html (Home page)
+* About us - index.html (Home page)
+* Our activities - index.html #activities-head (Home page / Activities section)
+* Our photos - gallery.html (Gallery page)
+* Join us - signup.html (Sign-up page)
+* Look photos - gallery.html (Gallery page)
+* Join Us! - signup.html (Sign-up page)
+* To the top - index.html #menu (Home page top)
+
+All the links navigated to the correct pages on all pages.
+
+### Footer Icons / Links
+
+* Testing was performed on the Font Awesome icons in the footer to ensure that each one opened in a new tab.
+* Facebook icon opened in a new tab when clicked as expected.
+* E-mail icon opened a default e-mail application ready to send an email to the target address.
+* Telephone icon opened a pop-up window asking which permition to call.
+
+### Sign-up form
+The form on the sign-up page was tested to ensure it functioned as expected. The test covered situations when correct data was input and when incorrect data was input.
+
+* Correct data:
+The form was successfully submitted. The thank-you page was displayed.
+* Incorrect data:
+The form wasn't submit and an Error was displayed to tell the user that the field is required.
+* No checkboxes selected:
+The form wasn't submit and an Error was displayed to tell the user that the field is required.
+
+### Validator Testing
+* HTML: No errors were returned when passing through the official W3C validator.
+
+
 
 
 

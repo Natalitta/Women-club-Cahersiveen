@@ -91,6 +91,7 @@ Women's Club Cahersiveen is a website that provides information about the local 
 * The sign-up form will be updated with javascript to send a welcoming email to the user with detailed information about the activities they specified in the form.
 
 ## Testing
+The testing was done in Mozilla Fireworks, Google Chrome, Pixel 4a, Xiomi Redmi 8.
 ### Navigation Links
 Testing was done to ensure that all navigation links navigate to the correct pages as intended. This was done by clicking on the navigation links on each page. 
 * Logo image - index.html (Home page)

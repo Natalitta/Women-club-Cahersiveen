@@ -1,7 +1,8 @@
 # Women's Club Cahersiveen 
 
 Women's Club Cahersiveen is a website that provides information about the local community for women in South Kerry, Ireland. The site is targeted toward women of all ages who are looking for a way to socialise, develop, learn new skills, live actively and keep themselves fit. Women's Club Cahersiveen website will be useful to see the list of activities, days and venues the members of the community can join.
-[The link to visit the website](https://natalitta.github.io/Women-club-Cahersiveen/)
+
+#### [The link to visit the website](https://natalitta.github.io/Women-club-Cahersiveen/)
 
 <img src="assets/images/Mockup.png" alt="Women's Club website on various devices">
 
@@ -17,27 +18,38 @@ Women's Club Cahersiveen is a website that provides information about the local 
 
 <img src="assets/images/menu.png" alt="Women's Club website menu">
 
+On smartphones the layout changes into a column.
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-menu.png" alt="Women's Club website phone menu">
+
+
 ### Favicon
 * The site has a favicon implemented with the club logo. It shows an image in a browser tab so that the user can easily identify the website among other open tabs.
 
-<img src="favicon.ico" alt="Women's Club website icon">
+<img src="assets/images/favicon-screenshot.png" alt="Women's Club website icon">
 
 ### Landing page
 
-#### Main image
+### Main image
 
 * The landing image contains a photo with text overlay to give the user some information about the community and its values.
 
 <img src="assets/images/banner.png" alt="Women's Club website main image">
 
-#### "Why join us?" section
+### "Why join us?" section
 
 * Reasons section provides the user with the reasons why this community can be of interest, shows motivating photos. 
 * The section "Why join us?" has a link to navigate to the gallery of photos on "Our photos" page.
 
 <img src="assets/images/reasons.png" alt="Women's Club website reasons section">
 
-#### "Our activities" section
+On smartphones the layout changes into a column.
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-reasons.png" alt="Women's Club website phone reasons">
+
+### "Our activities" section
 
 * This section presents the timetable of all the activities available.
 * The user can see the days, times and locations of all events.
@@ -46,13 +58,22 @@ Women's Club Cahersiveen is a website that provides information about the local 
 
 <img src="assets/images/activities.png" alt="Women's Club activities">
 
-#### "How to find us?"
+On smartphones the layout changes into a column.
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-activities.png" alt="Women's Club website phone activities">
+
+### "How to find us?"
 * This section contains 2 google maps for the locations. 
 * A user can use them to see where the evens take place and also get directions from Google maps.
 * The section also includes a link to the top of the page for users' convenience so that they don't need to scroll up to the menu.
 
-<img src="assets/images/maps.png" alt="Women's Club locations">
-<img src="assets/images/top-button.png" alt="Women's Club locations section">
+<img src="assets/images/maps-section.png" alt="Women's Club locations">
+
+On smartphones the layout changes into a column.
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-maps.png" alt="Women's Club website phone maps">
 
 ### Footer
 * The footer contains contacts represented by icons as links to a social media page (Facebook), an e-mail and a phone number, so that a user can easily phone or e-mail from the site. Facebook link opens in a new tab.
@@ -66,6 +87,10 @@ Women's Club Cahersiveen is a website that provides information about the local 
 
 <img src="assets/images/404.png" alt="Women's Club website 404 page">
 
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-404.png" alt="Women's Club website phone 404 page">
+
 ### "Our photos" page
 
 * The gallery provides users with photos of the activities in the community.
@@ -73,6 +98,10 @@ Women's Club Cahersiveen is a website that provides information about the local 
 
 <img src="assets/images/gallery.png" alt="Women's Club website gallery">
 
+On smartphones the layout changes into only one column.
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-gallery.png" alt="Women's Club website phone gallery">
 
 ### The Sign Up Page
 
@@ -82,16 +111,37 @@ Women's Club Cahersiveen is a website that provides information about the local 
 
 <img src="assets/images/signup.png" alt="Women's Club website form">
 
+On smartphones the layout changes to occupy the whole screen.
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-signup.png" alt="Women's Club website phone sign-up page">
+
 * On successful submission of the sign-up form, the user will be navigated to thank-you.html displaying a welcoming message.
 
 <img src="assets/images/thank-you.png" alt="Women's Club website thank-you page">
+
+On iPhone 11 it will look like this:
+
+<img src="assets/images/iPhone-welcome.png" alt="Women's Club website phone welcome page">
 
 ## Features Left to Implement
 
 * The sign-up form will be updated with javascript to send a welcoming email to the user with detailed information about the activities they specified in the form.
 
 ## Testing
-The testing was done in Mozilla Fireworks, Google Chrome, Pixel 4a, Xiomi Redmi 8.
+#### The testing was done in browsers: 
+* Mozilla Fireworks 108.0.2
+* Google Chrome 106.0.5249.119
+* Microsoft Edge 108.0.1462.54
+#### Smartphones: 
+* Pixel 4a
+* Xiomi Redmi 8.
+#### Responsiveness was also tested via Developers tools for:
+* iPhone 11 Pro iOS 14.6
+* iPad iPadOS 14.7.11
+* Gallaxy Note 20 Android 11
+* iPhone SE 2nd gen iOS 14.6
+
 ### Navigation Links
 Testing was done to ensure that all navigation links navigate to the correct pages as intended. This was done by clicking on the navigation links on each page. 
 * Logo image - index.html (Home page)
@@ -134,18 +184,18 @@ The form wasn't submit and an Error was displayed to tell the user that the fiel
 <img src="assets/images/val-5.png" alt="Women's Club website validation">
 
 ### Unfixed Bugs
-No bugs were detected.
+The custom 404 page appears only if a typo is made in the part of the address after / on all the pages except the index one. On the index page GitHub 404 page shows up instead.
 
 ## Deployment
 The site was created using Gitpod and pushed to GitHub to a remote repository.
-The site was deployed to GitHub pages. The steps to deploy are as follows: 
+#### The site was deployed to GitHub pages. The steps to deploy are as follows: 
 * In the GitHub repository, navigate to the Settings tab.
 * From the menu on the left, select Pages.
 * From the source section drop-down menu, select the Branch: main.
 * Click 'Save'
 * A live link displays on the top of the section when published successfully.
 
-The live link can be found here - https://natalitta.github.io/Women-club-Cahersiveen/
+#### The live link can be found here - https://natalitta.github.io/Women-club-Cahersiveen/
 
 ## Credits
 

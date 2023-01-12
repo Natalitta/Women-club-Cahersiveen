@@ -63,7 +63,6 @@ header img {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    
 }
 #banner   {
     background: url('../images/banner-photo.jpg') no-repeat center center;
@@ -72,8 +71,8 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }  
+
 /*section about*/
 #about {
     overflow: hidden;
@@ -94,6 +93,7 @@ header img {
 .bold {
     font-weight: bold;
 }
+
 /*reasons*/
 .main {
     border-top: 2px solid rgb(32, 83, 100);
@@ -104,29 +104,24 @@ header img {
  h3 {
     color: rgb(32, 83, 100);
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
+    margin-bottom: 20px;
  }
  .flex {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     overflow: hidden;
 }
-  
  #left-reason {
     max-width: 30%;
-    justify-content: space-around;
  }
  #center-reason {
     max-width: 30%;
-
  }
-
  #right-reason {
     max-width: 30%;
-    justify-content: space-around;
-
  }
 .main p {
     margin: 10px;
@@ -194,8 +189,8 @@ header img {
     font-weight: bold;
 }
 .map {
-    margin: 3% 3%;
-    text-align: center;
+    margin: 0 2%;
+    width: auto;
 }
 
 /*footer*/
@@ -231,6 +226,7 @@ footer h3 {
 #photos img {
     width: 100%;
 }
+
 /*signup page*/
 .form-section {
     width: 100%;
@@ -246,12 +242,10 @@ footer h3 {
     height: 800px;
     border-radius: 5%;
 }
-
 legend {
     font-size: 1.3em;
     padding-top: 10px;
     text-transform: uppercase;
-    
 }
 .text-input {
     border: 2px solid rgb(0, 120, 139);
@@ -428,13 +422,7 @@ legend {
         flex-direction: column;  
         flex-wrap: wrap;      
         }
-    .map {
-        width: 100%;
-    }
-    .map h3 {
-        font-size: 1.3em;
-        margin: 2%;
-    }
+    
      /*form*/
      .form-section {
         width: 100%;
@@ -464,6 +452,9 @@ legend {
         margin-top: 20px;
         margin-left: 10px;       
     }
+    #activities {
+        height: auto;
+    }
     #activities div {
         width: 40%;
         height: auto;
@@ -475,10 +466,8 @@ legend {
         margin: 5% 35%;
         text-align: center;
         }
-    
 }
 @media screen and (max-width: 900px) {
-      
     #menu {
         line-height: 80px;
     }
@@ -526,4 +515,13 @@ legend {
         max-width: 100%;
         margin: 0 auto;
         }
+}
+@media screen and (min-width:900px) and (max-width: 1000px) {
+.map {
+    width: 70%;
+}
+.map h3 {
+    font-size: 1.3em;
+    margin: 2%;
+}
 }
